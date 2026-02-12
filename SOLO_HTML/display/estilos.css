@@ -1,0 +1,41 @@
+/* -------------- */
+/* Estilos generales */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+/* Caja base para todos los ejemplos */
+.caja{
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ------------------ */
+/* display: block */
+.block{
+    display: block;
+    /* Ocupa todo el ancho disponible */
+}
+
+/* ------------ */
+/* display: inline */
+.inline{
+    display: inline;
+    /* No acepta width ni height */
+}
+
+/* ------------ */
+/* display: inline-block */
+.inline-block{
+    display: inline-block;
+    width: 120px; /* Sí acepta width */
+    height: 60px; /* Si acepta height */
+}

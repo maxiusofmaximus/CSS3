@@ -37,5 +37,12 @@ h2{
 .inline-block{
     display: inline-block;
     width: 120px; /* Sí acepta width */
-    height: 60px; /* Si acepta height */
+    height: 60px; /* Sí acepta height */
+}
+
+/* ---------- */
+/* display: none */
+.none{
+    display: none;
+    /* El elemento no se muestra ni ocupa espacio */
 }

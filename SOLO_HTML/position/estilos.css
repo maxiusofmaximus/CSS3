@@ -1,27 +1,27 @@
 /* ------------------- */
 /* Estilos generales */
 
-body{
+body {
     text-align: center;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-.seccion{
+.seccion {
     border: 2px solid #999;
 }
 
 /* Texto explicativo */
-.nota{
+.nota {
     font-size: 14px;
 }
 
 /* --------------- */
 /* Caja base */
 
-.caja{
+.caja {
     width: 140px;
     height: 70px;
     border: 2px solid black;
@@ -29,8 +29,46 @@ h1{
 
 /* ----------------- */
 /* STATIC */
-.static{
+.static {
     position: static;
     background-color: #d9edf7;
 }
 
+/* ----------- */
+/* RELATIVE */
+.relative {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    background-color: #fcf8e3;
+}
+
+/* ------------- */
+/* CONTENEDOR */
+.contenedor{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    border: 3px dashed red;
+    margin: 15px;
+    padding: 10px;
+    background-color: #fbeaea;
+}
+
+/* ----------- */
+/* ABSOLUTE */
+.absolute{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dff0d8;
+}
+
+/* ---------------- */
+/* FIXED */
+.fixed{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #f0ad4e;
+}

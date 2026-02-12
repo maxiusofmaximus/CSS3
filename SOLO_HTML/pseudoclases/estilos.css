@@ -1,0 +1,24 @@
+/* hover: Cuando el mouse pasa por encima */
+.link:hover {
+    color: red;
+}
+
+/* focus: Cuando el primer input está seleccionado */
+input:focus {
+    border: 5px solid blue;
+}
+
+/* first-child: primer elemento */
+li:first-child {
+    color: green;
+}
+
+/* last-child: Último elemento */
+li:last-child {
+    color: purple;
+}
+
+/* nth-child: elemento específico, El 2 indica la posición del elemento dentro de su padre. Empieza a contar desde 1, no desde 0 */
+li:nth-child(2){
+    background-color: lightgray;
+}

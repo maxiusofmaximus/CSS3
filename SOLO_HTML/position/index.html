@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Diagrama visual - position CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<h1>Diagrama visual de position en CSS</h1>
+
+<!-- static -->
+<div class="seccion">
+    <h2>position: static</h2>
+    <div class="caja static">Static</div>
+</div>
+
+<!-- relative -->
+<div class="seccion">
+    <h2>position: relative</h2>
+    <div class="caja relative">Relative</div>
+    <p class="nota">Se mueve desde su posición original</p>
+</div>
+
+<!-- absolute -->
+<div class="seccion">
+    <h2>position: absolute</h2>
+
+    <!-- Contenedor de referencia -->
+    <div class="contenedor">
+        Contenedor (relative)
+        <div class="caja absolute">Absolute</div>
+    </div>
+
+    <p class="nota">Se posiciona dentro del contenedor</p>
+</div>
+
+<!-- fixed -->
+<div class="seccion">
+    <h2>position: fixed</h2>
+    <p class="nota">Permanece fijo al hacer scroll</p>
+</div>
+
+<!-- Caja fixed -->
+<div class="caja fixed">Fixed</div>
+
+</body>
+
+<!-- Explicacion:
+
+static
+Posición normal del documento (valor por defecto).
+
+relative
+Se mueve respecto a su posición original.
+
+absolute
+Se posiciona respecto al contenedor más cercano con position relative.
+
+fixed
+Se queda fija en la pantalla aunque se haga scroll.-->
+
+</html>
+
+

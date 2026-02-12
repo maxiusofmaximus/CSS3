@@ -1,0 +1,32 @@
+pag 96
+
+ACTIVIDAD PRÁCTICA 8: LAYOUTS BÁSICOS: CAJAS FLEXIBLES (FLEXBOX) Y CUADRÍCULA (GRID)
+
+Descripción:
+Los campistas crearán una página de perfil de usuario simple que tendrá un encabezado, una foto de perfil con información del usuario, una sección de publicaciones y un pie de página. Usarán CSS Grid para el layout principal y Flexbox para alinear los elementos dentro de las secciones.
+
+Paso 1: Estructura HTML
+
+Paso 2: Estilos CSS
+
+Agrega estilos básicos para el body para darle una apariencia uniforme a toda la página.
+
+Selecciona el contenedor principal grid-container y aplica CSS Grid.
+
+Encabezado (.header): Aplica un color de fondo y centra el texto.
+
+Perfil (.perfil) y Publicaciones (.publicaciones): Estilos similares para el fondo, padding y bordes.
+
+Pie de página (.footer): Color de fondo oscuro, con texto blanco y centrado.
+
+Paso 3: Organizar el contenido con Flexbox
+
+Selecciona el contenedor .info dentro de .perfil y aplica display: flex para alinear la foto y la información en una línea.
+
+Establece dimensiones fijas para la foto y aplica border-radius: 50% para hacerla circular.
+
+Dale estilo a la información del usuario, usando colores para los textos y eliminando el margen de los encabezados.
+
+Selecciona el contenedor .posts dentro de .publicaciones y aplica Flexbox para alinear las publicaciones horizontalmente con espacio entre ellas.
+
+Agrega estilos a cada .post para darle una apariencia de tarjeta.

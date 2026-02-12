@@ -15,5 +15,22 @@ h1{
 
 /* Texto explicativo */
 .nota{
-    font
+    font-size: 14px;
 }
+
+/* --------------- */
+/* Caja base */
+
+.caja{
+    width: 140px;
+    height: 70px;
+    border: 2px solid black;
+}
+
+/* ----------------- */
+/* STATIC */
+.static{
+    position: static;
+    background-color: #d9edf7;
+}
+
